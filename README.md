@@ -6,12 +6,12 @@ In your `pubspec.yaml` file add:
 
 ```dart
 dependencies:
-  protobuf_google: any
+  proto_google: any
 ```
 
 ## Usage
 
 ```dart
-import 'package:protobuf_google/protobuf_google.dart';
+import 'package:proto_google/proto_google.dart';
 ```
 

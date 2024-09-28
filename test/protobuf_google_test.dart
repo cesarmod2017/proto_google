@@ -1,6 +1,6 @@
 //import 'package:test/test.dart';
 
-//import 'package:protobuf_google/protobuf_google.dart';
+//import 'package:proto_google/proto_google.dart';
 
 void main() {
   // test('adds one to input values', () {

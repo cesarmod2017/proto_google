@@ -1,11 +1,11 @@
-name: protobuf_google
+name: proto_google
 description: Public interface definitions of Google APIs for Dart and gRPC.
 version: 0.0.1
 homepage: https://pwa.ir
-repository: https://github.com/xclud/dart_protobuf_google/
+repository: https://github.com/sumitsharansatsangi/dart_proto_google/
 
 environment:
-  sdk: ">=3.5.0 <4.0.0"
+  sdk: ">=2.19.0 <4.0.0"
 
 dependencies:
   fixnum: ^1.1.0
