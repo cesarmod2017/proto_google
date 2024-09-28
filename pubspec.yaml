@@ -1,8 +1,8 @@
 name: proto_google
 description: Public interface definitions of Google APIs for Dart and gRPC.
 version: 0.0.1
-homepage: https://pwa.ir
-repository: https://github.com/sumitsharansatsangi/dart_proto_google/
+homepage: https://kumpali.com
+repository: https://github.com/sumitsharansatsangi/proto_google/
 
 environment:
   sdk: ">=2.19.0 <4.0.0"
