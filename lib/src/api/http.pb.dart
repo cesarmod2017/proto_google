@@ -2,9 +2,9 @@
 //  Generated code. Do not modify.
 //  source: google/api/http.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields, constant_identifier_names
-
+library;
 import 'dart:core' as $core;
 
 import 'package:protobuf/protobuf.dart' as $pb;
@@ -38,14 +38,14 @@ class Http extends $pb.GeneratedMessage {
     $core.Iterable<HttpRule>? rules,
     $core.bool? fullyDecodeReservedExpansion,
   }) {
-    final _result = create();
+    final result = create();
     if (rules != null) {
-      _result.rules.addAll(rules);
+      result.rules.addAll(rules);
     }
     if (fullyDecodeReservedExpansion != null) {
-      _result.fullyDecodeReservedExpansion = fullyDecodeReservedExpansion;
+      result.fullyDecodeReservedExpansion = fullyDecodeReservedExpansion;
     }
-    return _result;
+    return result;
   }
   factory Http.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -179,38 +179,38 @@ class HttpRule extends $pb.GeneratedMessage {
     $core.Iterable<HttpRule>? additionalBindings,
     $core.String? responseBody,
   }) {
-    final _result = create();
+    final result = create();
     if (selector != null) {
-      _result.selector = selector;
+      result.selector = selector;
     }
     if (get != null) {
-      _result.get = get;
+      result.get = get;
     }
     if (put != null) {
-      _result.put = put;
+      result.put = put;
     }
     if (post != null) {
-      _result.post = post;
+      result.post = post;
     }
     if (delete != null) {
-      _result.delete = delete;
+      result.delete = delete;
     }
     if (patch != null) {
-      _result.patch = patch;
+      result.patch = patch;
     }
     if (body != null) {
-      _result.body = body;
+      result.body = body;
     }
     if (custom != null) {
-      _result.custom = custom;
+      result.custom = custom;
     }
     if (additionalBindings != null) {
-      _result.additionalBindings.addAll(additionalBindings);
+      result.additionalBindings.addAll(additionalBindings);
     }
     if (responseBody != null) {
-      _result.responseBody = responseBody;
+      result.responseBody = responseBody;
     }
-    return _result;
+    return result;
   }
   factory HttpRule.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -382,14 +382,14 @@ class CustomHttpPattern extends $pb.GeneratedMessage {
     $core.String? kind,
     $core.String? path,
   }) {
-    final _result = create();
+    final result = create();
     if (kind != null) {
-      _result.kind = kind;
+      result.kind = kind;
     }
     if (path != null) {
-      _result.path = path;
+      result.path = path;
     }
-    return _result;
+    return result;
   }
   factory CustomHttpPattern.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>

@@ -2,9 +2,10 @@
 //  Generated code. Do not modify.
 //  source: google/protobuf/field_mask.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields, implementation_imports
 
+library;
 import 'dart:core' as $core;
 
 import 'package:protobuf/protobuf.dart' as $pb;
@@ -34,11 +35,11 @@ class FieldMask extends $pb.GeneratedMessage with $mixin.FieldMaskMixin {
   factory FieldMask({
     $core.Iterable<$core.String>? paths,
   }) {
-    final _result = create();
+    final result = create();
     if (paths != null) {
-      _result.paths.addAll(paths);
+      result.paths.addAll(paths);
     }
-    return _result;
+    return result;
   }
   factory FieldMask.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>

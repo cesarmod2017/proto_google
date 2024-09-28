@@ -2,9 +2,10 @@
 //  Generated code. Do not modify.
 //  source: google/protobuf/source_context.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields
 
+library;
 import 'dart:core' as $core;
 
 import 'package:protobuf/protobuf.dart' as $pb;
@@ -30,11 +31,11 @@ class SourceContext extends $pb.GeneratedMessage {
   factory SourceContext({
     $core.String? fileName,
   }) {
-    final _result = create();
+    final result = create();
     if (fileName != null) {
-      _result.fileName = fileName;
+      result.fileName = fileName;
     }
-    return _result;
+    return result;
   }
   factory SourceContext.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>

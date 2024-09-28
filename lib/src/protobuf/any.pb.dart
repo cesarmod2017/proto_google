@@ -2,9 +2,9 @@
 //  Generated code. Do not modify.
 //  source: google/protobuf/any.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields, implementation_imports
-
+library;
 import 'dart:core' as $core;
 
 import 'package:protobuf/protobuf.dart' as $pb;
@@ -41,14 +41,14 @@ class Any extends $pb.GeneratedMessage with $mixin.AnyMixin {
     $core.String? typeUrl,
     $core.List<$core.int>? value,
   }) {
-    final _result = create();
+    final result = create();
     if (typeUrl != null) {
-      _result.typeUrl = typeUrl;
+      result.typeUrl = typeUrl;
     }
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory Any.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>

@@ -2,9 +2,10 @@
 //  Generated code. Do not modify.
 //  source: google/protobuf/wrappers.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields, implementation_imports
 
+library;
 import 'dart:core' as $core;
 
 import 'package:fixnum/fixnum.dart' as $fixnum;
@@ -36,11 +37,11 @@ class DoubleValue extends $pb.GeneratedMessage with $mixin.DoubleValueMixin {
   factory DoubleValue({
     $core.double? value,
   }) {
-    final _result = create();
+    final result = create();
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory DoubleValue.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -105,11 +106,11 @@ class FloatValue extends $pb.GeneratedMessage with $mixin.FloatValueMixin {
   factory FloatValue({
     $core.double? value,
   }) {
-    final _result = create();
+    final result = create();
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory FloatValue.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -173,11 +174,11 @@ class Int64Value extends $pb.GeneratedMessage with $mixin.Int64ValueMixin {
   factory Int64Value({
     $fixnum.Int64? value,
   }) {
-    final _result = create();
+    final result = create();
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory Int64Value.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -243,11 +244,11 @@ class UInt64Value extends $pb.GeneratedMessage with $mixin.UInt64ValueMixin {
   factory UInt64Value({
     $fixnum.Int64? value,
   }) {
-    final _result = create();
+    final result = create();
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory UInt64Value.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -312,11 +313,11 @@ class Int32Value extends $pb.GeneratedMessage with $mixin.Int32ValueMixin {
   factory Int32Value({
     $core.int? value,
   }) {
-    final _result = create();
+    final result = create();
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory Int32Value.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -381,11 +382,11 @@ class UInt32Value extends $pb.GeneratedMessage with $mixin.UInt32ValueMixin {
   factory UInt32Value({
     $core.int? value,
   }) {
-    final _result = create();
+    final result = create();
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory UInt32Value.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -449,11 +450,11 @@ class BoolValue extends $pb.GeneratedMessage with $mixin.BoolValueMixin {
   factory BoolValue({
     $core.bool? value,
   }) {
-    final _result = create();
+    final result = create();
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory BoolValue.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -517,11 +518,11 @@ class StringValue extends $pb.GeneratedMessage with $mixin.StringValueMixin {
   factory StringValue({
     $core.String? value,
   }) {
-    final _result = create();
+    final result = create();
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory StringValue.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -586,11 +587,11 @@ class BytesValue extends $pb.GeneratedMessage with $mixin.BytesValueMixin {
   factory BytesValue({
     $core.List<$core.int>? value,
   }) {
-    final _result = create();
+    final result = create();
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory BytesValue.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>

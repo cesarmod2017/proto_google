@@ -2,9 +2,10 @@
 //  Generated code. Do not modify.
 //  source: google/protobuf/compiler/plugin.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields
 
+library;
 import 'dart:core' as $core;
 
 import 'package:fixnum/fixnum.dart' as $fixnum;
@@ -56,20 +57,20 @@ class Version extends $pb.GeneratedMessage {
     $core.int? patch,
     $core.String? suffix,
   }) {
-    final _result = create();
+    final result = create();
     if (major != null) {
-      _result.major = major;
+      result.major = major;
     }
     if (minor != null) {
-      _result.minor = minor;
+      result.minor = minor;
     }
     if (patch != null) {
-      _result.patch = patch;
+      result.patch = patch;
     }
     if (suffix != null) {
-      _result.suffix = suffix;
+      result.suffix = suffix;
     }
-    return _result;
+    return result;
   }
   factory Version.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -187,20 +188,20 @@ class CodeGeneratorRequest extends $pb.GeneratedMessage {
     Version? compilerVersion,
     $core.Iterable<$0.FileDescriptorProto>? protoFile,
   }) {
-    final _result = create();
+    final result = create();
     if (fileToGenerate != null) {
-      _result.fileToGenerate.addAll(fileToGenerate);
+      result.fileToGenerate.addAll(fileToGenerate);
     }
     if (parameter != null) {
-      _result.parameter = parameter;
+      result.parameter = parameter;
     }
     if (compilerVersion != null) {
-      _result.compilerVersion = compilerVersion;
+      result.compilerVersion = compilerVersion;
     }
     if (protoFile != null) {
-      _result.protoFile.addAll(protoFile);
+      result.protoFile.addAll(protoFile);
     }
-    return _result;
+    return result;
   }
   factory CodeGeneratorRequest.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -296,17 +297,17 @@ class CodeGeneratorResponse_File extends $pb.GeneratedMessage {
     $core.String? insertionPoint,
     $core.String? content,
   }) {
-    final _result = create();
+    final result = create();
     if (name != null) {
-      _result.name = name;
+      result.name = name;
     }
     if (insertionPoint != null) {
-      _result.insertionPoint = insertionPoint;
+      result.insertionPoint = insertionPoint;
     }
     if (content != null) {
-      _result.content = content;
+      result.content = content;
     }
-    return _result;
+    return result;
   }
   factory CodeGeneratorResponse_File.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -412,17 +413,17 @@ class CodeGeneratorResponse extends $pb.GeneratedMessage {
     $fixnum.Int64? supportedFeatures,
     $core.Iterable<CodeGeneratorResponse_File>? file,
   }) {
-    final _result = create();
+    final result = create();
     if (error != null) {
-      _result.error = error;
+      result.error = error;
     }
     if (supportedFeatures != null) {
-      _result.supportedFeatures = supportedFeatures;
+      result.supportedFeatures = supportedFeatures;
     }
     if (file != null) {
-      _result.file.addAll(file);
+      result.file.addAll(file);
     }
-    return _result;
+    return result;
   }
   factory CodeGeneratorResponse.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>

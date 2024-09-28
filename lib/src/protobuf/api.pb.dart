@@ -2,9 +2,10 @@
 //  Generated code. Do not modify.
 //  source: google/protobuf/api.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields, unnecessary_import
 
+library;
 import 'dart:core' as $core;
 
 import 'package:protobuf/protobuf.dart' as $pb;
@@ -82,29 +83,29 @@ class Api extends $pb.GeneratedMessage {
     $core.Iterable<Mixin>? mixins,
     $2.Syntax? syntax,
   }) {
-    final _result = create();
+    final result = create();
     if (name != null) {
-      _result.name = name;
+      result.name = name;
     }
     if (methods != null) {
-      _result.methods.addAll(methods);
+      result.methods.addAll(methods);
     }
     if (options != null) {
-      _result.options.addAll(options);
+      result.options.addAll(options);
     }
     if (version != null) {
-      _result.version = version;
+      result.version = version;
     }
     if (sourceContext != null) {
-      _result.sourceContext = sourceContext;
+      result.sourceContext = sourceContext;
     }
     if (mixins != null) {
-      _result.mixins.addAll(mixins);
+      result.mixins.addAll(mixins);
     }
     if (syntax != null) {
-      _result.syntax = syntax;
+      result.syntax = syntax;
     }
-    return _result;
+    return result;
   }
   factory Api.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -255,29 +256,29 @@ class Method extends $pb.GeneratedMessage {
     $core.Iterable<$2.Option>? options,
     $2.Syntax? syntax,
   }) {
-    final _result = create();
+    final result = create();
     if (name != null) {
-      _result.name = name;
+      result.name = name;
     }
     if (requestTypeUrl != null) {
-      _result.requestTypeUrl = requestTypeUrl;
+      result.requestTypeUrl = requestTypeUrl;
     }
     if (requestStreaming != null) {
-      _result.requestStreaming = requestStreaming;
+      result.requestStreaming = requestStreaming;
     }
     if (responseTypeUrl != null) {
-      _result.responseTypeUrl = responseTypeUrl;
+      result.responseTypeUrl = responseTypeUrl;
     }
     if (responseStreaming != null) {
-      _result.responseStreaming = responseStreaming;
+      result.responseStreaming = responseStreaming;
     }
     if (options != null) {
-      _result.options.addAll(options);
+      result.options.addAll(options);
     }
     if (syntax != null) {
-      _result.syntax = syntax;
+      result.syntax = syntax;
     }
-    return _result;
+    return result;
   }
   factory Method.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -408,14 +409,14 @@ class Mixin extends $pb.GeneratedMessage {
     $core.String? name,
     $core.String? root,
   }) {
-    final _result = create();
+    final result = create();
     if (name != null) {
-      _result.name = name;
+      result.name = name;
     }
     if (root != null) {
-      _result.root = root;
+      result.root = root;
     }
-    return _result;
+    return result;
   }
   factory Mixin.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>

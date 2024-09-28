@@ -2,9 +2,10 @@
 //  Generated code. Do not modify.
 //  source: google/protobuf/timestamp.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields, implementation_imports
 
+library;
 import 'dart:core' as $core;
 
 import 'package:fixnum/fixnum.dart' as $fixnum;
@@ -42,14 +43,14 @@ class Timestamp extends $pb.GeneratedMessage with $mixin.TimestampMixin {
     $fixnum.Int64? seconds,
     $core.int? nanos,
   }) {
-    final _result = create();
+    final result = create();
     if (seconds != null) {
-      _result.seconds = seconds;
+      result.seconds = seconds;
     }
     if (nanos != null) {
-      _result.nanos = nanos;
+      result.nanos = nanos;
     }
-    return _result;
+    return result;
   }
   factory Timestamp.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>

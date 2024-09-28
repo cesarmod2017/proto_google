@@ -2,9 +2,10 @@
 //  Generated code. Do not modify.
 //  source: google/protobuf/type.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields
 
+library;
 import 'dart:core' as $core;
 
 import 'package:protobuf/protobuf.dart' as $pb;
@@ -76,26 +77,26 @@ class Type extends $pb.GeneratedMessage {
     $0.SourceContext? sourceContext,
     Syntax? syntax,
   }) {
-    final _result = create();
+    final result = create();
     if (name != null) {
-      _result.name = name;
+      result.name = name;
     }
     if (fields != null) {
-      _result.fields.addAll(fields);
+      result.fields.addAll(fields);
     }
     if (oneofs != null) {
-      _result.oneofs.addAll(oneofs);
+      result.oneofs.addAll(oneofs);
     }
     if (options != null) {
-      _result.options.addAll(options);
+      result.options.addAll(options);
     }
     if (sourceContext != null) {
-      _result.sourceContext = sourceContext;
+      result.sourceContext = sourceContext;
     }
     if (syntax != null) {
-      _result.syntax = syntax;
+      result.syntax = syntax;
     }
-    return _result;
+    return result;
   }
   factory Type.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -258,38 +259,38 @@ class Field extends $pb.GeneratedMessage {
     $core.String? jsonName,
     $core.String? defaultValue,
   }) {
-    final _result = create();
+    final result = create();
     if (kind != null) {
-      _result.kind = kind;
+      result.kind = kind;
     }
     if (cardinality != null) {
-      _result.cardinality = cardinality;
+      result.cardinality = cardinality;
     }
     if (number != null) {
-      _result.number = number;
+      result.number = number;
     }
     if (name != null) {
-      _result.name = name;
+      result.name = name;
     }
     if (typeUrl != null) {
-      _result.typeUrl = typeUrl;
+      result.typeUrl = typeUrl;
     }
     if (oneofIndex != null) {
-      _result.oneofIndex = oneofIndex;
+      result.oneofIndex = oneofIndex;
     }
     if (packed != null) {
-      _result.packed = packed;
+      result.packed = packed;
     }
     if (options != null) {
-      _result.options.addAll(options);
+      result.options.addAll(options);
     }
     if (jsonName != null) {
-      _result.jsonName = jsonName;
+      result.jsonName = jsonName;
     }
     if (defaultValue != null) {
-      _result.defaultValue = defaultValue;
+      result.defaultValue = defaultValue;
     }
-    return _result;
+    return result;
   }
   factory Field.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -483,23 +484,23 @@ class Enum extends $pb.GeneratedMessage {
     $0.SourceContext? sourceContext,
     Syntax? syntax,
   }) {
-    final _result = create();
+    final result = create();
     if (name != null) {
-      _result.name = name;
+      result.name = name;
     }
     if (enumvalue != null) {
-      _result.enumvalue.addAll(enumvalue);
+      result.enumvalue.addAll(enumvalue);
     }
     if (options != null) {
-      _result.options.addAll(options);
+      result.options.addAll(options);
     }
     if (sourceContext != null) {
-      _result.sourceContext = sourceContext;
+      result.sourceContext = sourceContext;
     }
     if (syntax != null) {
-      _result.syntax = syntax;
+      result.syntax = syntax;
     }
-    return _result;
+    return result;
   }
   factory Enum.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -608,17 +609,17 @@ class EnumValue extends $pb.GeneratedMessage {
     $core.int? number,
     $core.Iterable<Option>? options,
   }) {
-    final _result = create();
+    final result = create();
     if (name != null) {
-      _result.name = name;
+      result.name = name;
     }
     if (number != null) {
-      _result.number = number;
+      result.number = number;
     }
     if (options != null) {
-      _result.options.addAll(options);
+      result.options.addAll(options);
     }
-    return _result;
+    return result;
   }
   factory EnumValue.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -702,14 +703,14 @@ class Option extends $pb.GeneratedMessage {
     $core.String? name,
     $1.Any? value,
   }) {
-    final _result = create();
+    final result = create();
     if (name != null) {
-      _result.name = name;
+      result.name = name;
     }
     if (value != null) {
-      _result.value = value;
+      result.value = value;
     }
-    return _result;
+    return result;
   }
   factory Option.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>

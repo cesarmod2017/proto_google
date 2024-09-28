@@ -2,10 +2,11 @@
 //  Generated code. Do not modify.
 //  source: google/protobuf/type.proto
 //
-// @dart = 2.12
+// @dart = 3.5
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields, constant_identifier_names
 
 // ignore_for_file: UNDEFINED_SHOWN_NAME
+library;
 import 'dart:core' as $core;
 import 'package:protobuf/protobuf.dart' as $pb;
 
@@ -30,7 +31,7 @@ class Syntax extends $pb.ProtobufEnum {
       $pb.ProtobufEnum.initByValue(values);
   static Syntax? valueOf($core.int value) => _byValue[value];
 
-  const Syntax._($core.int v, $core.String n) : super(v, n);
+  const Syntax._(super.v, super.n);
 }
 
 class Field_Kind extends $pb.ProtobufEnum {
@@ -156,7 +157,7 @@ class Field_Kind extends $pb.ProtobufEnum {
       $pb.ProtobufEnum.initByValue(values);
   static Field_Kind? valueOf($core.int value) => _byValue[value];
 
-  const Field_Kind._($core.int v, $core.String n) : super(v, n);
+  const Field_Kind._(super.v, super.n);
 }
 
 class Field_Cardinality extends $pb.ProtobufEnum {
@@ -192,5 +193,5 @@ class Field_Cardinality extends $pb.ProtobufEnum {
       $pb.ProtobufEnum.initByValue(values);
   static Field_Cardinality? valueOf($core.int value) => _byValue[value];
 
-  const Field_Cardinality._($core.int v, $core.String n) : super(v, n);
+  const Field_Cardinality._(super.v, super.n);
 }
