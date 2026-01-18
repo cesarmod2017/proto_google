@@ -12,20 +12,20 @@ In your `pubspec.yaml` file add:
 
 ```dart
 dependencies:
-  proto_google: any
+  mod_proto_google: any
 ```
 
 ## Usage
 
 ```dart
-import 'package:proto_google/proto_google.dart';
+import 'package:mod_proto_google/mod_proto_google.dart';
 ```
 - If you are using the generated files from the `.proto` file and using any Google Pre-Defined DataTypes.
 Update the generated `.dart` as follows
 ```dart
 import 'google/protobuf/any.pb.dart' as $0; // Just an example
 ```
-with 
+with
 ```dart
-import 'package:proto_google/proto_google.dart' as $0;
+import 'package:mod_proto_google/mod_proto_google.dart' as $0;
 ```

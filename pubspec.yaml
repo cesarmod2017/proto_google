@@ -1,17 +1,17 @@
-name: proto_google
+name: mod_proto_google
 description: Public interface definitions of Google APIs for Dart and gRPC.
-version: 0.0.2
+version: 1.1.0
 homepage: https://github.com/cesarmod2017/proto_google/
 repository: https://github.com/cesarmod2017/proto_google/
 
 
 environment:
-  sdk: ">=2.19.0 <4.0.0"
+  sdk: ">=3.6.0 <4.0.0"
 
 dependencies:
   fixnum: ^1.1.1
-  protobuf: ^4.0.0
+  protobuf: ^6.0.0
 
 dev_dependencies:
-  test: ^1.25.15
-  lints: ^5.1.1
+  test: ^1.29.0
+  lints: ^6.0.0

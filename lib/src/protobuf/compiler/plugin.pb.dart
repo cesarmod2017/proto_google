@@ -1,11 +1,9 @@
-///
 //  Generated code. Do not modify.
 //  source: google/protobuf/compiler/plugin.proto
 //
-// @dart = 3.5
+// @dart = 3.6
 // ignore_for_file: annotate_overrides,camel_case_types,unnecessary_const,non_constant_identifier_names,library_prefixes,unused_import,unused_shown_name,return_of_invalid_type,unnecessary_this,prefer_final_fields
 
-library;
 import 'dart:core' as $core;
 
 import 'package:fixnum/fixnum.dart' as $fixnum;
@@ -57,20 +55,20 @@ class Version extends $pb.GeneratedMessage {
     $core.int? patch,
     $core.String? suffix,
   }) {
-    final result = create();
+    final _result = create();
     if (major != null) {
-      result.major = major;
+      _result.major = major;
     }
     if (minor != null) {
-      result.minor = minor;
+      _result.minor = minor;
     }
     if (patch != null) {
-      result.patch = patch;
+      _result.patch = patch;
     }
     if (suffix != null) {
-      result.suffix = suffix;
+      _result.suffix = suffix;
     }
-    return result;
+    return _result;
   }
   factory Version.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -92,7 +90,6 @@ class Version extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static Version create() => Version._();
   Version createEmptyInstance() => create();
-  static $pb.PbList<Version> createRepeated() => $pb.PbList<Version>();
   @$core.pragma('dart2js:noInline')
   static Version getDefault() =>
       _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Version>(create);
@@ -188,20 +185,20 @@ class CodeGeneratorRequest extends $pb.GeneratedMessage {
     Version? compilerVersion,
     $core.Iterable<$0.FileDescriptorProto>? protoFile,
   }) {
-    final result = create();
+    final _result = create();
     if (fileToGenerate != null) {
-      result.fileToGenerate.addAll(fileToGenerate);
+      _result.fileToGenerate.addAll(fileToGenerate);
     }
     if (parameter != null) {
-      result.parameter = parameter;
+      _result.parameter = parameter;
     }
     if (compilerVersion != null) {
-      result.compilerVersion = compilerVersion;
+      _result.compilerVersion = compilerVersion;
     }
     if (protoFile != null) {
-      result.protoFile.addAll(protoFile);
+      _result.protoFile.addAll(protoFile);
     }
-    return result;
+    return _result;
   }
   factory CodeGeneratorRequest.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -224,8 +221,6 @@ class CodeGeneratorRequest extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static CodeGeneratorRequest create() => CodeGeneratorRequest._();
   CodeGeneratorRequest createEmptyInstance() => create();
-  static $pb.PbList<CodeGeneratorRequest> createRepeated() =>
-      $pb.PbList<CodeGeneratorRequest>();
   @$core.pragma('dart2js:noInline')
   static CodeGeneratorRequest getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<CodeGeneratorRequest>(create);
@@ -297,17 +292,17 @@ class CodeGeneratorResponse_File extends $pb.GeneratedMessage {
     $core.String? insertionPoint,
     $core.String? content,
   }) {
-    final result = create();
+    final _result = create();
     if (name != null) {
-      result.name = name;
+      _result.name = name;
     }
     if (insertionPoint != null) {
-      result.insertionPoint = insertionPoint;
+      _result.insertionPoint = insertionPoint;
     }
     if (content != null) {
-      result.content = content;
+      _result.content = content;
     }
-    return result;
+    return _result;
   }
   factory CodeGeneratorResponse_File.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -332,8 +327,6 @@ class CodeGeneratorResponse_File extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static CodeGeneratorResponse_File create() => CodeGeneratorResponse_File._();
   CodeGeneratorResponse_File createEmptyInstance() => create();
-  static $pb.PbList<CodeGeneratorResponse_File> createRepeated() =>
-      $pb.PbList<CodeGeneratorResponse_File>();
   @$core.pragma('dart2js:noInline')
   static CodeGeneratorResponse_File getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<CodeGeneratorResponse_File>(create);
@@ -413,17 +406,17 @@ class CodeGeneratorResponse extends $pb.GeneratedMessage {
     $fixnum.Int64? supportedFeatures,
     $core.Iterable<CodeGeneratorResponse_File>? file,
   }) {
-    final result = create();
+    final _result = create();
     if (error != null) {
-      result.error = error;
+      _result.error = error;
     }
     if (supportedFeatures != null) {
-      result.supportedFeatures = supportedFeatures;
+      _result.supportedFeatures = supportedFeatures;
     }
     if (file != null) {
-      result.file.addAll(file);
+      _result.file.addAll(file);
     }
-    return result;
+    return _result;
   }
   factory CodeGeneratorResponse.fromBuffer($core.List<$core.int> i,
           [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) =>
@@ -447,8 +440,6 @@ class CodeGeneratorResponse extends $pb.GeneratedMessage {
   @$core.pragma('dart2js:noInline')
   static CodeGeneratorResponse create() => CodeGeneratorResponse._();
   CodeGeneratorResponse createEmptyInstance() => create();
-  static $pb.PbList<CodeGeneratorResponse> createRepeated() =>
-      $pb.PbList<CodeGeneratorResponse>();
   @$core.pragma('dart2js:noInline')
   static CodeGeneratorResponse getDefault() => _defaultInstance ??=
       $pb.GeneratedMessage.$_defaultFor<CodeGeneratorResponse>(create);
